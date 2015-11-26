@@ -1,0 +1,26 @@
+[
+	{
+    "Title": "Dawg Coffee",
+		"URL": "http://students.washington.edu/nirawitj/info343/dawg-coffee/",
+    "Photo": "assets/coffee.png",
+		"Description":"A fictional coffee website built using Bootstrap."
+	},
+	{
+    "Title": "Liberty Strikes Back",
+		"URL": "http://students.washington.edu/nirawitj/info343/police-shooting/",
+    "Photo": "assets/police-shooting.png",
+		"Description":"A personal crusade against the lunacy of gun fanatics. The map, however, is about a different matter of police brutality and institutional racism."
+	},
+	{
+    "Title": "memerankr",
+		"URL": "http://http://students.washington.edu/nirawitj/info343/info343-crud/",
+    "Photo": "assets/memerankr.png",
+		"Description":"Rank memes! The project was codenamed dankdroppr, a combination of 'dank memes' and a parody of The Mountain Goat's Best Ever Death Metal Band in Denton titled DankDropper."
+	},
+	{
+    "Title": "OneList.fm",
+		"URL": "http://students.washington.edu/nirawitj/info343/spotify-template/",
+    "Photo": "assets/onelist.png",
+		"Description":"Imagine if all your favorite music wasn't scattered everywhere. OneList aims to fix that. Sadly, the best music streaming platform, Rdio, closed its doors a week after this project."
+	}
+]

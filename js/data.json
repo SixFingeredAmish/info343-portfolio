@@ -1,0 +1,30 @@
+[
+	{
+		"URL": "http://students.washington.edu/sirra/info343/dawg-coffee",
+		"Title": "Dawg Coffee",
+		"Description":"This was my first attempt at building a modern web page. We were tasked to replicate a site to the best of our abilities via pictures and limited instructions. This is where I learned more about CSS as well as how Bootstrap can be a great asset for scaling a page down to a mobile device.",
+		"Date": "Oct 12, 2015",
+		"Image": "./images/Dawg-Coffee.png"
+	},
+	{
+		"URL": "http://students.washington.edu/sirra/info343/police-shooting",
+		"Title": "Mapping Police Shootings",
+		"Description": "In this challenge, I learned how to use Leaflet.js to create an interactive map. We used data from a crowdsourced police shooting site to overlay circles onto the map which when hovered over will display data on the incident.",
+		"Date": "Oct 19, 2015",
+		"Image": "./images/Police-Shootings.png"
+	},
+	{
+		"URL": "http://students.washington.edu/sirra/info343/CRUD-web-application",
+		"Title": "CRUD Product Review",
+		"Description": "A CRUD app allows a user to create, read, update and delete content on this site and this challenge displayed this by letting users rate a fake product by posting a review. This review can be upvoted and deleted as well.",
+		"Date": "Oct 28, 2015",
+		"Image": "./images/Product-Review.png"
+	},
+	{
+		"URL": "http://students.washington.edu/sirra/info343/Spotify-Challenge",
+		"Title": "Spotify Challenge",
+		"Description": "In this challenge, we were asked to use the Spotify API to create a music related app. I elected to make an app that would help users find new music by randomly creating a playlist of songs by artists related to the artist that the user requests. ",
+		"Date": "Nov 9, 2015",
+		"Image": "./images/Spotify-Challenge.png"
+	}
+]
