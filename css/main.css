@@ -35,10 +35,10 @@ i {
   height: 100vh;
   margin: 0;
   padding: 2em;
-  padding-right: 0;
+  padding-right: 1em;
   padding-left: 4em;
   padding-bottom: 0;
-  width: 15%;
+  width: 10%;
   display: inline-block;
 
   background-color: #434343;
@@ -87,4 +87,9 @@ h1 {
   padding-left: 4em;
 
   display: inline-block;
+}
+
+#home {
+
+  text-align: center;
 }
