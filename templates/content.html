@@ -1,11 +1,13 @@
 <div>
+  <div class="container">
+    <div ng-repeat="item in data">
 
-    <div ng-repeat="i in data">
-    	<div id="project-list">
-    		<h2>{{i.Title}}<a ng-href="{{i.URL}}" target="_blank"> &rarr;</a></h2>
-          <img ng-src="{{i.Photo}}" />
-        	<p>{{i.Description}}</p>
+    	<div id="project-list" class="center-block">
+    		<h2>{{item.Title}}<a ng-href={{item.URL}} target="_blank"> &rarr;</a></h2>
+          <img ng-src={{item.Photo}} />
+        	<p>{{item.Description}}</p>
     	</div>
-    </div>
 
+    </div>
+  </div>
 </div>

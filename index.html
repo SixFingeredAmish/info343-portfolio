@@ -15,27 +15,35 @@
 
     <!-- Custom code -->
     <script src="js/app.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href = "css/main.css" rel="stylesheet" type = "text/css"/>
-
   </head>
-  <body ng-app="myApp">
-    <div id="nav">
-      <header>
-          <h1>Nirawit Jittipairoj</h1>
-          <ul id="nav-list">
-            <li><a ui-sref="home">Home</a></li>
-            <li><a ui-sref="content">Portfolio</a></li>
-            <li><a href="http://www.baconbits.me">Blog</a></li>
-            <li><a ui-sref="about">About</a></li>
-          </ul>
-  		</header>
-    </div>
 
-    <div id="content">
-      <!-- This is where your content will display -->
-      <div ui-view></div>
+  <body ng-app="myApp">
+    <div class="container">
+      <div class="row">
+        <div class="nav-wrap col-md-2 col-xs-2 col-sm-2">
+          <div id="nav">
+            <header>
+                <h1>Nirawit Jittipairoj</h1>
+                <ul id="nav-list">
+                  <li><a ui-sref="home">Home</a></li>
+                  <li><a ui-sref="content">Portfolio</a></li>
+                  <li><a href="http://www.baconbits.me">Blog</a></li>
+                  <li><a ui-sref="about">About</a></li>
+                </ul>
+        		</header>
+          </div>
+        </div>
+
+      <div id="content" class="col-md-10">
+        <!-- This is where your content will display -->
+        <div ui-view></div>
+      </div>
     </div>
+  </div>
 
 
   </body>
